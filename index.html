@@ -25,6 +25,21 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 .cd-sl::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:18px;height:18px;border-radius:50%;background:var(--accent);cursor:pointer;box-shadow:0 0 0 3px rgba(239,159,39,.3)}
 .cd-sl::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--accent);cursor:pointer;border:0}
 .cd-tl{font-weight:500;min-width:72px;text-align:right;font-variant-numeric:tabular-nums;font-size:12px}
+@media (max-width:600px){
+  .cd-c{height:100dvh}
+  .cd-h.tl{max-width:135px;padding:7px 9px}
+  .cd-h.tl div{font-size:9.5px}
+  .cd-h.tl div:first-child{font-size:11px}
+  .cd-h.tr{min-width:108px;padding:7px 9px}
+  .cd-h.tr div{font-size:9.5px}
+  .cd-h.tr div:nth-child(2){font-size:12px}
+  .cd-cmp{width:54px;height:54px;top:8px}
+  .cd-h.bl{display:none}
+  .cd-ctrl{bottom:100px;padding:10px 12px;gap:7px}
+  .cd-btn{padding:5px 8px;font-size:11px}
+  .cd-tl{min-width:60px;font-size:11px}
+  .cd-sl{min-width:120px}
+}
 </style>
 </head>
 <body>
